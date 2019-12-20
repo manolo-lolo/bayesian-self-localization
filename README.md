@@ -1,5 +1,5 @@
-# Bayesian Self-localization
-Machine learning project about a robot that self-localizes in a 1d world
+# Robot self-localization using hidden Markov and Bayesian probability model
+Machine learning project about a robot that infers its own position in a 1d world
 
 # Overview
 The robot knows a map of the world it is living in:
@@ -21,6 +21,6 @@ A terminal interface shows the movement of the robot and how the location probab
 ![GIF of Robot in Terminal](robot_pre.gif "GIF of Robot in Terminal")
 
 # Dependencies
-This program has been written in Python3. It does not need any dependencies, unless you want to see the little :robot_face: emoji. In that case, install `emoji` via
+This program has been written in `Python3`. It does not need any dependencies, unless you want to see the little :robot_face: emoji. In that case, install `emoji` via
 
 ```pip install emoji```
