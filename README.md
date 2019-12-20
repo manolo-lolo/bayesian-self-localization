@@ -3,7 +3,9 @@ Machine learning project about a robot that self-localizes in a 1d world
 
 # Overview
 The robot knows a map of the world it is living in:
+
 ```[X, X, X, O, X, O, X, O, X, X]```
+
 It does not, however, know where it itself is located. Thus, it moves around and takes measurements to infer its own position.
 The only problem: it is hindered by its own imperfection, so measurement and movement can fail without the robot noticing.
 
